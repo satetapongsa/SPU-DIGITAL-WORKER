@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className={scrolled ? 'scrolled' : ''}>
       <div className="container nav-content">
         <div className="logo" style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <img src="/logo-spu.png" alt="SPU" style={{ height: '40px' }} />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/New_logo_spu_%28Converted%29.png" alt="SPU" style={{ height: '40px' }} />
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '1.2rem', fontWeight: '800', lineHeight: '1' }}>SPU<span style={{ color: SPU_COLORS.pink }}> IT</span></span>
             <span style={{ fontSize: '0.6rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '1px' }}>Computer Engineering</span>
@@ -252,7 +252,7 @@ const App = () => {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="logo" style={{ marginBottom: '1.5rem' }}>
-                <img src="/logo-spu.png" alt="SPU" style={{ height: '50px' }} />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/New_logo_spu_%28Converted%29.png" alt="SPU" style={{ height: '50px' }} />
               </div>
               <p style={{ color: 'var(--text-muted)' }}>Sripatum University <br />Faculty of Information Technology, Computer Engineering.</p>
             </div>
